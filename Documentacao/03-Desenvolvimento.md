@@ -2,7 +2,12 @@
 # Materiais
 
 Os materiais utilizados no projeto foram:
-- Liste os materiais usados no projeto, como Arduino/ESP, sensores, atuadores e outros.
+- Arduino.
+- Sensor de umidade.
+- Ponte H.
+- Motor com caixa de redução.
+- Botão.
+- Papelão.
 
 # Desenvolvimento
 
