@@ -19,6 +19,8 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas
 
-As ferramentas utilizadas no projeto foram:
-
-- Liste aqui as ferramentas utilizadas para desenvolvimento do projeto (como por exemplo: Arduino IDE, APP Inventor, trello e outros). Obs: não é para listar aqui os componentes utilizados.
+- Trello.
+- WhatsApp.
+- GitHub.
+- MIT AppInventor.
+- Arduino IDE.
