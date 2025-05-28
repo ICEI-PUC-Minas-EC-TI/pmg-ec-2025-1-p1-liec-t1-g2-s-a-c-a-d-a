@@ -11,19 +11,20 @@
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Renato de Souza Freitas
+* Filipe Augusto Rosa Damas
+* Vitor Goulart Santos
+* Raphael Rodrigues Dutra Prado
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marta Dias Moreira Noronha
 
 ## Resumo
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+ Janela automática com motor e sensor de umidade, com o objetivo de fechar em caso de chuva, 
+junto do aplicativo, que além de notificar o usuário da ativação do mecanismo (fechar a janela), 
+também dá a possibilidade de fechar a janela remotamente.
 
 # Código (do arduino ou esp32)
 
