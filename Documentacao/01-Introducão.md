@@ -8,9 +8,15 @@ Nesse momento você deve apresentar o problema que o seu projeto deve  resolver.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um projeto para solucionar o problema apresentado acima. 
+Objetivo Geral:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Desenvolver uma janela inteligente que feche automaticamente ao detectar chuva ou manualmente através de um aplicativo, promovendo conforto, segurança e praticidade aos usuários.
+
+Objetivos Específicos:
+
+1. Projetar e implementar um sistema de detecção de chuva integrado a um mecanismo de fechamento automatizado da janela.
+
+2. Desenvolver um aplicativo móvel intuitivo para permitir o controle remoto da janela, bem como o monitoramento em tempo real das condições climáticas e do status da janela.
  
 ## Público-Alvo
 
