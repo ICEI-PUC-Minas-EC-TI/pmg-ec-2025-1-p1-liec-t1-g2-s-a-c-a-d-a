@@ -1,12 +1,12 @@
 # TÍTULO DO PROJETO
 
-`CAMPUS/UNIDADE`
+`CAMPUS CORAÇÃO EUCARÍSTICO`
 
-`CURSO`
+`Engenharia de computação`
 
-`SEMESTRE`
+`1 SEMESTRE`
 
-`DISCIPLINA`
+`Laboratório de Introdução a Engenharia de Computação`
 
 
 ## Integrantes
