@@ -3,15 +3,13 @@
 
 # Metodologia
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Para o desenvolvimento do projeto da janela inteligente, a equipe adotou a metodologia ágil Scrum, com organização do trabalho em sprints, revisões periódicas e acompanhamentos do progresso. A comunicação entre os membros é feita por meio da plataforma WhatsApp, enquanto o controle de código-fonte é realizado com Git, utilizando repositório no GitHub para versionamento e colaboração. O aplicativo está sendo desenvolvido pelo MIT AppInventor, enquanto o sistema embarcado utiliza a plataforma Arduino IDE com o microcontrolador ESP32. Os testes de hardware são realizados em bancada, com sensores de chuva e motores de passo. A equipe se divide por áreas: desenvolvimento do aplicativo, integração de hardware e automação, e gestão/documentação. As tarefas são organizadas no Trello, permitindo o acompanhamento de responsabilidades e prazos, o que garante maior controle e eficiência durante todo o processo de desenvolvimento.
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Aluno 1;
-- Equipe de Desenvolvimento: Aluno 1, Aluno 2, Aluno 3;
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+- Scrum Master: Renato;
+- Equipe de Desenvolvimento: Vitor, Raphael, Filipe;
 
 
 ### Processo
