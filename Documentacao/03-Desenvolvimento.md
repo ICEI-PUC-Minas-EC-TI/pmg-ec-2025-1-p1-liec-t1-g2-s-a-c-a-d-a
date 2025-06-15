@@ -83,12 +83,15 @@ O processo de montagem envolveu:
 
 O código foi escrito na IDE do Arduino, e sua lógica foi dividida em três partes principais:
 Leitura do Sensor de Chuva
+
 O Arduino lê periodicamente os valores do sensor. Se o valor indicar presença de água, o sistema aciona o motor para fechar a janela automaticamente.
 
 Controle Manual via App
+
 O Arduino também monitora comandos recebidos por Bluetooth. Se o usuário enviar "ABRIR" ou "FECHAR", o Arduino executa o movimento correspondente, independentemente da leitura do sensor.
 
 Feedback ao Aplicativo
+
 Após executar a ação, o Arduino envia de volta uma resposta textual ("Aberta", "Fechada" ou "Chuva detectada") para que o app exiba ao usuário o status atualizado.
 
 ## Comunicação entre App e Hardware
