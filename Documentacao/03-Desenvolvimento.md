@@ -34,7 +34,7 @@ Foram feitos testes em bancada para validar:
 - A atuação do sensor de chuva em diferentes níveis de umidade.
 - A estabilidade da conexão Wi-Fi.
 
-7. Documentação e Conclusão
+5. Documentação e Conclusão
 Por fim, foram registradas todas as etapas do projeto, incluindo:
 - Diagramas do circuito eletrônico.
 - Códigos-fonte comentados.
