@@ -83,14 +83,22 @@ O processo de montagem envolveu:
 
 O código foi escrito na IDE do Arduino, e sua lógica foi dividida em três partes principais:
 1. Leitura do Sensor de Chuva
-O Arduino lê periodicamente os valores do sensor. Se o valor indicar presença de água, o sistema aciona o motor para fechar a janela automaticamente.
+- O Arduino lê periodicamente os valores do sensor. Se o valor indicar presença de água, o sistema aciona o motor para fechar a janela automaticamente.
 
 2. Controle Manual via App
-O Arduino também monitora comandos recebidos por Bluetooth. Se o usuário enviar "ABRIR" ou "FECHAR", o Arduino executa o movimento correspondente, independentemente da leitura do sensor.
+- O Arduino também monitora comandos recebidos por Bluetooth. Se o usuário enviar "ABRIR" ou "FECHAR", o Arduino executa o movimento correspondente, independentemente da leitura do sensor.
 
 3. Feedback ao Aplicativo
-Após executar a ação, o Arduino envia de volta uma resposta textual ("Aberta", "Fechada" ou "Chuva detectada") para que o app exiba ao usuário o status atualizado.
+- Após executar a ação, o Arduino envia de volta uma resposta textual ("Aberta", "Fechada" ou "Chuva detectada") para que o app exiba ao usuário o status atualizado.
 
 ## Comunicação entre App e Hardware
 
-Descreva como foi o processo de comunicação entre App e arduino/ESP.
+A comunicação foi estabelecida via Bluetooth, utilizando o módulo HC-05 conectado ao Arduino Uno. No aplicativo (criado no MIT AppInventor), o componente BluetoothClient é responsável por enviar e receber dados do Arduino.
+O fluxo de comunicação é:
+- Emparelhamento do celular com o módulo HC-05;
+- O app envia comandos simples como "ABRIR" ou "FECHAR" ao Arduino;
+- O Arduino interpreta o comando e aciona o motor conforme necessário;
+- Após a ação, o Arduino envia uma mensagem de status de volta ao app;
+- O aplicativo atualiza a interface para o usuário com base nessa resposta.
+
+A comunicação foi testada em diferentes distâncias e com comandos repetidos, garantindo baixa latência e boa confiabilidade na troca de dados.
