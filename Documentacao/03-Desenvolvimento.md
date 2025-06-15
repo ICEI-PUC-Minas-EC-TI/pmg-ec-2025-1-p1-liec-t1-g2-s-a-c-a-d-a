@@ -45,11 +45,26 @@ Por fim, foram registradas todas as etapas do projeto, incluindo:
 
 ### Interface
 
-Descreva o desenvolvimento das telas do aplicativo.
+O desenvolvimento da interface foi feito utilizando o MIT AppInventor, uma plataforma de programação por blocos voltada para aplicativos Android. A proposta da interface foi manter um layout simples, intuitivo e funcional. As telas desenvolvidas foram:
+
+Tela Principal:
+- Botão "Fechar Janela": envia um comando para acionar o motor, simulando o fechamento da janela.
+- Botão "Abrir Janela": envia um comando para acionar o motor, simulando a abertura da janela.
+- Indicador de status: exibe o estado atual da janela (aberta ou fechada).
+- Botão para salvar preferências.
+O foco foi garantir acessibilidade e resposta rápida, com botões grandes e visual limpo para facilitar o uso em qualquer dispositivo móvel.
 
 ### Código
 
-Descreva o desenvolvimento do código do aplicativo.
+O código do aplicativo foi desenvolvido no MIT AppInventor, utilizando blocos de programação visual. O objetivo foi permitir que o usuário controlasse a janela por meio de botões, enviando comandos via Bluetooth para o Arduino Uno com um módulo Bluetooth (como o HC-05).
+Durante o desenvolvimento, foram criadas funções específicas para:
+Conectar ao dispositivo Bluetooth:
+Um botão permite que o usuário selecione e conecte o celular ao módulo Bluetooth do Arduino.
+Enviar comandos ao Arduino:
+Foram programados dois botões no app — “Abrir Janela” e “Fechar Janela” — que enviam os comandos de texto "ABRIR" e "FECHAR" respectivamente para o Arduino. Esses comandos são enviados através do componente BluetoothClient.
+Receber e exibir respostas:
+O app também foi configurado para receber mensagens do Arduino, como "Aberta" ou "Fechada", informando o estado atual da janela. Essa resposta é lida automaticamente e exibida em um campo de status.
+Todo o código foi construído com blocos simples, organizados de forma clara, garantindo a comunicação entre o aplicativo e o Arduino de maneira eficiente e funcional.
 
 ## Desenvolvimento do Hardware
 
