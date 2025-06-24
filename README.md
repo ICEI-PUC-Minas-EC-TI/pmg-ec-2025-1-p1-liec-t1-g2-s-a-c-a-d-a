@@ -4,7 +4,7 @@
 
 `Engenharia de computação`
 
-`1 SEMESTRE`
+`1º SEMESTRE`
 
 `Laboratório de Introdução a Engenharia de Computação`
 
