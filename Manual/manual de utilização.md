@@ -16,13 +16,9 @@ Clique em "Conectar" e selecione o dispositivo.
 
 Use os botões:
 
-"Abrir Janela" para abrir.
+"Abrir/fehcar", o sistema deve identificar se a janela está aberta ou fechada e motor deverá rodar na direção contraria.
 
-"Fechar Janela" para fechar.
-
-O status da janela será exibido na tela.
-
-Caso chova, a janela fechará automaticamente sem necessidade de comando.
+Caso chova, a janela fechará automaticamente sem necessidade de comando, e assim que parar de chover, a janela deve abrir.
 
 Manutenção e Cuidados
 - Mantenha o sensor de chuva limpo e seco para garantir precisão.
@@ -35,8 +31,6 @@ Manutenção e Cuidados
 
 Limitações
 - Comunicação apenas via Bluetooth (sem acesso remoto via internet).
-
-- O sistema não reconhece automaticamente se a janela está aberta ou fechada (sem sensores de posição).
 
 - Alcance limitado da comunicação (até ~10 metros, sem obstáculos).
 
