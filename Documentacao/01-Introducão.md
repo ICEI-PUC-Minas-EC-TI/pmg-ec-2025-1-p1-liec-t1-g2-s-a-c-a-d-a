@@ -14,13 +14,13 @@ O problema a ser resolvido é a exposição de ambientes internos à água da ch
 
 Objetivo Geral:
 
-Desenvolver uma janela inteligente que feche automaticamente ao detectar chuva ou manualmente através de um aplicativo, promovendo conforto, segurança e praticidade aos usuários.
+Desenvolver uma janela inteligente que abra e feche automaticamente de acordo com a detecção de chuva ou manualmente através de um aplicativo, promovendo conforto, segurança e praticidade aos usuários.
 
 Objetivos Específicos:
 
 1. Projetar e implementar um sistema de detecção de chuva integrado a um mecanismo de fechamento automatizado da janela.
 
-2. Desenvolver um aplicativo móvel intuitivo para permitir o controle remoto da janela, bem como o monitoramento em tempo real das condições climáticas e do status da janela.
+2. Desenvolver um aplicativo móvel intuitivo para permitir o controle remoto da janela, bem como o monitoramento em tempo real das condições climáticas.
  
 ## Público-Alvo
 
