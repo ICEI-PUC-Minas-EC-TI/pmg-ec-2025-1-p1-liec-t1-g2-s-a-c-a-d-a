@@ -7,7 +7,7 @@ No seu celular, vá até as configurações de Bluetooth.
 
 Localize o dispositivo.
 
-Emparelhe utilizando a senha padrão 1234 ou 0000.
+Emparelhe utilizando a senha padrão 1234.
 
 2. Utilização do Aplicativo
 Abra o aplicativo Janela Inteligente.
