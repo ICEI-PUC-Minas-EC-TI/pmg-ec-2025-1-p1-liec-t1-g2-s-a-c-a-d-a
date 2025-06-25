@@ -12,18 +12,18 @@ Os materiais utilizados no projeto foram:
 
 1. Desenvolvimento do Aplicativo
 A equipe criou um aplicativo simples e funcional, permitindo ao usuário:
-- Fechar a janela remotamente com um botão no app.
+- Fechar e abrir a janela remotamente com um botão no app.
 - O app foi desenvolvido no MIT AppInventor, utilizando comunicação com o ESP32 via bluetooth.
 
 2. Desenvolvimento do Sistema Embarcado
-Paralelamente, foi feita a programação do ESP32 utilizando a Arduino IDE. Foram integrados:
+Paralelamente, foi feita a programação do ArduinoUno utilizando a Arduino IDE. Foram integrados:
 - Sensor de chuva: para detectar automaticamente a presença de água.
 - Motor de passo: para realizar o movimento de abrir ou fechar a janela.
 
 3. Integração entre Hardware e Aplicativo
 Após o desenvolvimento individual dos componentes, foi realizada a integração:
-- O aplicativo envia comandos ao ESP32 via bluetooth.
-- O ESP32 interpreta o comando e aciona o motor, ou responde automaticamente ao sensor de chuva.
+- O aplicativo envia comandos ao ArduinoUno via bluetooth.
+- O ArduinoUno interpreta o comando e aciona o motor, ou responde automaticamente ao sensor de chuva.
 
 4. Testes e Ajustes
 Foram feitos testes em bancada para validar:
@@ -45,8 +45,7 @@ O desenvolvimento da interface foi feito utilizando o MIT AppInventor, uma plata
 
 Tela Principal:
 - Botão "Fechar/Abrir Janela": envia um comando para acionar o motor.
-- Indicador de status: exibe o estado atual da janela (aberta ou fechada).
-- Botão para salvar preferências.
+- Botão "Conectar": parelha o aplicativo com o ArduinoUno.
 O foco foi garantir acessibilidade e resposta rápida, com botões grandes e visual limpo para facilitar o uso em qualquer dispositivo móvel.
 
 ### Código
