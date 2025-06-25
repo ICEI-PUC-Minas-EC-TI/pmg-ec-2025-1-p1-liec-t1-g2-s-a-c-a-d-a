@@ -18,7 +18,7 @@ O quadro Kanban, hospedado no Trello, foi estruturado para refletir o fluxo de t
 - A fazer: tarefas selecionadas para a sprint atual.
 - Em andamento: tarefas que estão sendo executadas.
 - Concluído: tarefas finalizadas e aprovadas.
- 
+![image](https://github.com/user-attachments/assets/93e0686f-d149-46fa-b8b3-40b699054bba)
 
 ### Ferramentas
 
