@@ -23,8 +23,8 @@
 ## Resumo
 
  Janela automática com motor e sensor de umidade, com o objetivo de fechar em caso de chuva, 
-junto do aplicativo, que além de notificar o usuário da ativação do mecanismo (fechar a janela), 
-também dá a possibilidade de fechar a janela remotamente.
+junto do aplicativo, que além de notificar o usuário da ativação do mecanismo (fechar/abrir a janela), 
+também dá a possibilidade de fechar e abrir a janela remotamente.
 
 # Código (do arduino ou esp32)
 
