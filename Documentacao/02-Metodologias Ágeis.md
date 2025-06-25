@@ -14,9 +14,10 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 ### Processo
 
-- As tarefas foram atribuídas com prazo estimado e responsável definido, permitindo à equipe acompanhar o progresso.
-- Os testes de hardware foram realizados em bancada antes de qualquer integração com o app.
-- O histórico de decisões, dificuldades e soluções foi documentado, promovendo transparência e aprendizado contínuo.
+O quadro Kanban, hospedado no Trello, foi estruturado para refletir o fluxo de trabalho do grupo, com as seguintes colunas:
+- A fazer: tarefas selecionadas para a sprint atual.
+- Em andamento: tarefas que estão sendo executadas.
+- Concluído: tarefas finalizadas e aprovadas.
  
 
 ### Ferramentas
@@ -25,3 +26,4 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 - GitHub.
 - MIT AppInventor.
 - Arduino IDE.
+- Trello.
