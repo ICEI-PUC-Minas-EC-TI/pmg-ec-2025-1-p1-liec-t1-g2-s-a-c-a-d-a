@@ -10,7 +10,7 @@ Localize o dispositivo.
 Emparelhe utilizando a senha padrão 1234.
 
 2. Utilização do Aplicativo
-Abra o aplicativo Janela Inteligente.
+Abra o aplicativo SACADAv3.
 
 Clique em "Conectar" e selecione o dispositivo.
 
