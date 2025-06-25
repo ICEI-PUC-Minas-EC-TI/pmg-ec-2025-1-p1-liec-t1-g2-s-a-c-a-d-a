@@ -1,3 +1,20 @@
+/* 
+S.A.C.A.D.A - Sistema Automático de Controle de Abertura Durante Aguaceiros.
+
+Janela automática com motor e sensor de umidade, com o objetivo de fechar em caso de chuva, 
+junto do aplicativo, que além de notificar o usuário da ativação do mecanismo (fechar/abrir a janela),
+também dá a possibilidade de fechar e abrir a janela remotamente.
+
+Integrantes:
+*Vitor Goulart
+*Raphael Rodrigues
+*Renato Freitas
+*Filipe Augusto
+
+URL git:
+https://github.com/ICEI-PUC-Minas-EC-TI/pmg-ec-2025-1-p1-liec-t1-g2-s-a-c-a-d-a
+*/
+
 #include <SoftwareSerial.h>
 #include <Stepper.h>
 
