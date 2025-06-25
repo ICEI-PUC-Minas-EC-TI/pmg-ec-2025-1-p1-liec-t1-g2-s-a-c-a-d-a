@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# S.A.C.A.D.A
 
 `CAMPUS CORAÇÃO EUCARÍSTICO`
 
@@ -16,9 +16,11 @@
 * Vitor Goulart Santos
 * Raphael Rodrigues Dutra Prado
 
-## Orientador
+## Orientadores
 
 * Marta Dias Moreira Noronha
+* Sandro Jerônimom de Almeida
+* Naísses Zóia Lima
 
 ## Resumo
 
