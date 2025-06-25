@@ -12,3 +12,5 @@ autor Renato Freitas
  * Abertura
  * Durante
  * Aguaceiros
+
+Conectar ao bluetooth pelo app. Se o leitor de chuva detectar agua, a janela deve fechar, ao parar de detectar agua, a janela deve abrir automaticamente.
