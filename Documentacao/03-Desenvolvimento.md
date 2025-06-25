@@ -2,18 +2,16 @@
 # Materiais
 
 Os materiais utilizados no projeto foram:
-- Arduino.
-- Sensor de umidade.
-- Ponte H.
-- Motor com caixa de redução.
-- Botão.
+- Arduino UNO.
+- Sensor de umidade (DSKMH-RD).
+- Motor de Passo 28BYJ-48 + Driver ULN2003.
+- Placa Bluetooth (HC-05).
 - Papelão.
 
 # Desenvolvimento
 
 1. Desenvolvimento do Aplicativo
 A equipe criou um aplicativo simples e funcional, permitindo ao usuário:
-- Verificar o status da janela (aberta ou fechada).
 - Fechar a janela remotamente com um botão no app.
 - O app foi desenvolvido no MIT AppInventor, utilizando comunicação com o ESP32 via bluetooth.
 
@@ -21,7 +19,6 @@ A equipe criou um aplicativo simples e funcional, permitindo ao usuário:
 Paralelamente, foi feita a programação do ESP32 utilizando a Arduino IDE. Foram integrados:
 - Sensor de chuva: para detectar automaticamente a presença de água.
 - Motor de passo: para realizar o movimento de abrir ou fechar a janela.
-- Conexão Wi-Fi: para receber comandos do aplicativo.
 
 3. Integração entre Hardware e Aplicativo
 Após o desenvolvimento individual dos componentes, foi realizada a integração:
@@ -32,7 +29,6 @@ Após o desenvolvimento individual dos componentes, foi realizada a integração
 Foram feitos testes em bancada para validar:
 - A resposta do motor ao comando do app.
 - A atuação do sensor de chuva em diferentes níveis de umidade.
-- A estabilidade da conexão Wi-Fi.
 
 5. Documentação e Conclusão
 Por fim, foram registradas todas as etapas do projeto, incluindo:
@@ -48,8 +44,7 @@ Por fim, foram registradas todas as etapas do projeto, incluindo:
 O desenvolvimento da interface foi feito utilizando o MIT AppInventor, uma plataforma de programação por blocos voltada para aplicativos Android. A proposta da interface foi manter um layout simples, intuitivo e funcional. As telas desenvolvidas foram:
 
 Tela Principal:
-- Botão "Fechar Janela": envia um comando para acionar o motor, simulando o fechamento da janela.
-- Botão "Abrir Janela": envia um comando para acionar o motor, simulando a abertura da janela.
+- Botão "Fechar/Abrir Janela": envia um comando para acionar o motor.
 - Indicador de status: exibe o estado atual da janela (aberta ou fechada).
 - Botão para salvar preferências.
 O foco foi garantir acessibilidade e resposta rápida, com botões grandes e visual limpo para facilitar o uso em qualquer dispositivo móvel.
@@ -61,9 +56,8 @@ Durante o desenvolvimento, foram criadas funções específicas para:
 Conectar ao dispositivo Bluetooth:
 Um botão permite que o usuário selecione e conecte o celular ao módulo Bluetooth do Arduino.
 Enviar comandos ao Arduino:
-Foram programados dois botões no app — “Abrir Janela” e “Fechar Janela” — que enviam os comandos de texto "ABRIR" e "FECHAR" respectivamente para o Arduino. Esses comandos são enviados através do componente BluetoothClient.
+Foram programado um botão no app — “Abrir/fechar Janela” — que enviam os comandos de texto "ABRIR" e "FECHAR" respectivamente para o Arduino. Esses comandos são enviados através do componente BluetoothClient.
 Receber e exibir respostas:
-O app também foi configurado para receber mensagens do Arduino, como "Aberta" ou "Fechada", informando o estado atual da janela. Essa resposta é lida automaticamente e exibida em um campo de status.
 Todo o código foi construído com blocos simples, organizados de forma clara, garantindo a comunicação entre o aplicativo e o Arduino de maneira eficiente e funcional.
 
 ## Desenvolvimento do Hardware
@@ -88,8 +82,6 @@ O código foi escrito na IDE do Arduino, e sua lógica foi dividida em três par
 2. Controle Manual via App
 - O Arduino também monitora comandos recebidos por Bluetooth. Se o usuário enviar "ABRIR" ou "FECHAR", o Arduino executa o movimento correspondente, independentemente da leitura do sensor.
 
-3. Feedback ao Aplicativo
-- Após executar a ação, o Arduino envia de volta uma resposta textual ("Aberta", "Fechada" ou "Chuva detectada") para que o app exiba ao usuário o status atualizado.
 
 ## Comunicação entre App e Hardware
 
