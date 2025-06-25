@@ -8,8 +8,8 @@ Para o desenvolvimento do projeto da janela inteligente, a equipe adotou a metod
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Renato;
-- Equipe de Desenvolvimento: Vitor, Raphael, Filipe;
+- Scrum Master: Raphael;
+- Equipe de Desenvolvimento: Vitor, Renato, Filipe;
 
 
 ### Processo
