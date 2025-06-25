@@ -3,7 +3,7 @@
 
 Os materiais utilizados no projeto foram:
 - Arduino UNO.
-- Sensor de umidade (DSKMH-RD).
+- Sensor de umidade (DSK MH-RD).
 - Motor de Passo 28BYJ-48 + Driver ULN2003.
 - Placa Bluetooth (HC-05).
 - Papelão.
