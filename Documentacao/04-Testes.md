@@ -6,12 +6,11 @@ Foram feitos testes em três principais frentes:
 - Verificação do emparelhamento entre o celular e o módulo HC-05.
 - Testes de envio de comandos (“ABRIR” e “FECHAR”) pelo app.
 - Confirmação do recebimento e execução correta dos comandos no Arduino.
-- Verificação da resposta textual do Arduino no app (ex.: "Janela Aberta").
 - Teste do Sensor de Chuva
 - Simulação de chuva com gotas de água no sensor.
 - Verificação do acionamento automático do motor para fechar a janela.
 - Testes de leitura em ambiente seco para garantir que a janela não feche indevidamente.
-- Teste do Motor de Passo
+- Teste do Motor de Passo.
 - Avaliação do tempo e força de giro necessário para abrir e fechar a janela simulada.
 - Ajustes no tempo de acionamento para garantir movimento completo sem travamentos.
 
