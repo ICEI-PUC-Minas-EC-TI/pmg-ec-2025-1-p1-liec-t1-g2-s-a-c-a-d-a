@@ -68,18 +68,24 @@ A montagem do projeto foi realizada em bancada, utilizando o Arduino Uno como mi
 O processo de montagem envolveu:
 - Conexão do sensor de chuva à entrada analógica do Arduino para monitorar a presença de água;
 - Ligação do motor de passo ao driver ULN2003, com alimentação separada para garantir corrente suficiente;
-- Integração do módulo Bluetooth HC-05 às portas digitais (via SoftwareSerial), com alimentação de 5V e GND;
-- Utilização de uma fonte externa (bateria ou fonte de bancada) para alimentar o motor com estabilidade;
+- Integração do módulo Bluetooth HC-05 às portas digitais (via SoftwareSerial), com alimentação;
+- Utilização de uma fonte externa para alimentar o sistema com estabilidade;
 - Montagem dos componentes em uma protoboard para facilitar os testes e ajustes.
 
 ### Desenvolvimento do Código
 
-O código foi escrito na IDE do Arduino, e sua lógica foi dividida em três partes principais:
+O código foi escrito na IDE do Arduino, e sua lógica foi dividida em classes:
 1. Leitura do Sensor de Chuva
 - O Arduino lê periodicamente os valores do sensor. Se o valor indicar presença de água, o sistema aciona o motor para fechar a janela automaticamente.
 
 2. Controle Manual via App
 - O Arduino também monitora comandos recebidos por Bluetooth. Se o usuário enviar "ABRIR" ou "FECHAR", o Arduino executa o movimento correspondente, independentemente da leitura do sensor.
+
+3. Conexão bluetooth
+- O Arduino conecta, recebe e enviar informações ao dispositivo pareado.
+
+4. Classes de abertura e fechamento
+- Identifica se a ultima vez que foi ativado foi para abrir ou para fechar, e executa a classe contrária.
 
 
 ## Comunicação entre App e Hardware
@@ -87,9 +93,7 @@ O código foi escrito na IDE do Arduino, e sua lógica foi dividida em três par
 A comunicação foi estabelecida via Bluetooth, utilizando o módulo HC-05 conectado ao Arduino Uno. No aplicativo (criado no MIT AppInventor), o componente BluetoothClient é responsável por enviar e receber dados do Arduino.
 O fluxo de comunicação é:
 - Emparelhamento do celular com o módulo HC-05;
-- O app envia comandos simples como "ABRIR" ou "FECHAR" ao Arduino;
+- O app envia comandos simples de caractere ao Arduino;
 - O Arduino interpreta o comando e aciona o motor conforme necessário;
-- Após a ação, o Arduino envia uma mensagem de status de volta ao app;
-- O aplicativo atualiza a interface para o usuário com base nessa resposta.
 
 A comunicação foi testada em diferentes distâncias e com comandos repetidos, garantindo baixa latência e boa confiabilidade na troca de dados.
